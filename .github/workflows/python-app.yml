@@ -33,5 +33,5 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Run scripts
       run: |
-        script.py
-        discord_push.py
+        python script.py
+        python discord_push.py
